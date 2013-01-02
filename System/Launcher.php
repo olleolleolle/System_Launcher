@@ -60,22 +60,23 @@ require_once 'Launcher/Driver/Windows.php';
 class System_Launcher
 {
     /**
-    * The driver for detected operating system.
-    * @var object
-    */
+     * The driver for detected operating system.
+     * @var object
+     */
     protected $os;
 
     /**
-    * Ordered list of drivers to test.
-    * @var array
-    */
+     * Ordered list of drivers to test.
+     * @var array
+     */
     protected $drivers;
 
     /**
-    * Command output string
-    * @var string
-    */
+     * Command output string
+     * @var string
+     */
     protected $lastOutput;
+
     /**
      * Sets up a list of operating system checkers.
      *
